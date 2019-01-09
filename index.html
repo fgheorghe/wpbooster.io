@@ -1,78 +1,21 @@
+---
+# ehlo
+---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="title" content="wpBooster.io: WooCommerce Caching Plugin</title"/>
-    <meta name="description" content="Fastest WooCommerce Caching Plugin"/>
-    <meta name="keywords" content="WooCommerce, Caching">
-
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <link async rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-    <link type="text/css" rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css">
-
-    <title>wpBooster.io | WooCommerce Caching Plugin</title>
-
-</head>
+{% include_relative head.html %}
 <body>
-<header class="bg-dark">
-    <div class="container">
-        <nav class="navbar navbar-expand-md no-gutters">
-            <div class="col-2 text-left">
-                <a href="https://www.froala.com">
-                    Froala
-                </a>
-            </div>
+{% include_relative header.html %}
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-3"
-                    aria-controls="navbarNav14" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center col-md-8 navbar-collapse-3" id="navbarNav14">
-                <ul class="navbar-nav justify-content-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.froala.com">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="collapse navbar-collapse justify-content-end col-md-2 navbar-collapse-3">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Log In <i class="fas fa-sign-in-alt"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
-
-<section class="fdb-block fdb-viewport bg-dark" style="background-color: mediumpurple !important;">
-    <div class="container justify-content-center align-items-center d-flex">
+<section class="fdb-block fdb-viewport" style="background-color: lightblue !important;">
+    <div class="container justify-content-center align-items-center">
         <div class="row justify-content-center text-center">
             <div class="col-12 col-md-8">
-                <img alt="image" class="fdb-icon" src="./imgs/icons/coffee.svg">
-                <h1>Froala Design Blocks</h1>
-                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                    there live the blind texts.</p>
-                <p class="mt-5"><a href="https://www.froala.com" class="btn btn-dark">Call to Action</a></p>
+                <img alt="image" style="height: 200px;" src="graph.svg">
+                <span class="flex-nowrap">
+                    <h1>WooCommerce Caching Plugin</h1>
+                </span>
+                <p class="lead" style="color: black;">Lightning fast Product Page, Product Listing, and Product Search.</p>
             </div>
         </div>
     </div>
@@ -82,10 +25,10 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto">
-                <img alt="image" class="img-fluid" src="./imgs/draws/features.svg">
+                <img alt="image" class="img-fluid" src="product.svg">
             </div>
             <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
-                <h1>Design Blocks</h1>
+                <h1>Product Page Caching</h1>
 
                 <div class="row pt-4 pt-xl-5">
                     <div class="col-12 col-sm-6 col-xl-5">
@@ -111,7 +54,7 @@
 
                 <div class="row pt-3">
                     <div class="col">
-                        <button class="btn btn-primary" type="button">Submit</button>
+                        <button class="btn btn-primary" type="button">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -123,7 +66,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto">
-                <h1>Design Blocks</h1>
+                <h1>Product Listing Caching</h1>
 
                 <div class="row pt-4 pt-xl-5">
                     <div class="col-12 col-sm-6 col-xl-5">
@@ -149,12 +92,12 @@
 
                 <div class="row pt-3">
                     <div class="col">
-                        <button class="btn btn-primary" type="button">Submit</button>
+                        <button class="btn btn-primary" type="button">Learn More</button>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
-                <img alt="image" class="img-fluid" src="./imgs/draws/features.svg">
+                <img alt="image" class="img-fluid" src="list.svg">
             </div>
         </div>
     </div>
@@ -164,10 +107,10 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-8 col-lg-6 m-md-auto ml-lg-0 mr-lg-auto">
-                <img alt="image" class="img-fluid" src="./imgs/draws/features.svg">
+                <img alt="image" class="img-fluid" src="search.png">
             </div>
             <div class="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
-                <h1>Design Blocks</h1>
+                <h1>Product Search Caching</h1>
 
                 <div class="row pt-4 pt-xl-5">
                     <div class="col-12 col-sm-6 col-xl-5">
@@ -193,109 +136,21 @@
 
                 <div class="row pt-3">
                     <div class="col">
-                        <button class="btn btn-primary" type="button">Submit</button>
+                        <button class="btn btn-primary" type="button">Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--
-<section class="fdb-block" style="background-color: whitesmoke;">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col">
-                <h1>Pricing</h1>
-            </div>
-        </div>
-
-        <div class="row mt-5 align-items-center">
-            <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-3 text-left">
-                <div class="fdb-box fdb-touch p-5 rounded">
-                    <h2>Hobby <strong class="float-xl-right d-lg-block d-xl-inline">$99</strong></h2>
-                    <p class="lead"><em>Copy Writers ambushed her, made her drunk.</em></p>
-
-                    <ul class="text-left pl-3 mt-5 mb-5">
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                    </ul>
-
-                    <p class="text-left pt-4"><a href="https://www.froala.com" class="btn btn-primary">Buy Now</a></p>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-3 text-left">
-                <div class="fdb-box fdb-touch p-5 rounded">
-                    <h2>Hobby <strong class="float-xl-right d-lg-block d-xl-inline">$99</strong></h2>
-                    <p class="lead"><em>Copy Writers ambushed her, made her drunk.</em></p>
-
-                    <ul class="text-left pl-3 mt-5 mb-5">
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                    </ul>
-
-                    <p class="text-left pt-4"><a href="https://www.froala.com" class="btn btn-primary">Buy Now</a></p>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-3 text-left">
-                <div class="fdb-box fdb-touch p-5 rounded">
-                    <h2>Hobby <strong class="float-xl-right d-lg-block d-xl-inline">$99</strong></h2>
-                    <p class="lead"><em>Copy Writers ambushed her, made her drunk.</em></p>
-
-                    <ul class="text-left pl-3 mt-5 mb-5">
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                    </ul>
-
-                    <p class="text-left pt-4"><a href="https://www.froala.com" class="btn btn-primary">Buy Now</a></p>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-3 text-left">
-                <div class="fdb-box fdb-touch p-5 rounded">
-                    <h2>Hobby <strong class="float-xl-right d-lg-block d-xl-inline">$99</strong></h2>
-                    <p class="lead"><em>Copy Writers ambushed her, made her drunk.</em></p>
-
-                    <ul class="text-left pl-3 mt-5 mb-5">
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                    </ul>
-
-                    <p class="text-left pt-4"><a href="https://www.froala.com" class="btn btn-primary">Buy Now</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
 
 <footer class="fdb-block footer-small bg-dark">
     <div class="container">
         <div class="row text-center align-items-center">
             <div class="col">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="https://www.froala.com">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Privacy Policy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">Terms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.froala.com">About</a>
-                    </li>
-                </ul>
+                <ul class="nav justify-content-center"></ul>
 
-                <p class="h5 mt-5">© 2013-2018 Froala</p>
+                <p class="h5 mt-5">© 2018 wpBooster Ltd.</p>
             </div>
         </div>
     </div>
